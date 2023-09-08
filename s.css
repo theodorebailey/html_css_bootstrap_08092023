@@ -22,3 +22,12 @@ body{
     height: 40px;
     padding-left: 20px;
 }
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
