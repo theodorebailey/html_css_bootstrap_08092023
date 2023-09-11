@@ -22,19 +22,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="#top">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
+                        <a class="nav-link" href="#about-us">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TESTIMONIALS</a>
+                        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#footer">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -63,7 +63,8 @@
 
     <section id="services">
         <div class="container">
-            <div class="row">
+            <h1 class="title text-center">WHAT WE DO?</h1>
+            <div class="row text-center">
                 <div class="col-md-4 services">
                     <img src="images/service1.png" alt="" class="service-img">
                     <h4>GROWTH MARKETING</h4>
@@ -80,8 +81,110 @@
                     <p>Subscribe for Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus blanditiis repudiandae ad perspiciatis atque qui eos animi officia minus!</p>
                 </div>
             </div>
+
+            <button type="button" class="btn btn-primary">ALL SERVICES</button>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT US -->
+
+
+    <section id="about-us">
+        <div class="container">
+            <h1 class="title text-center">WHY CHOOSE US?</h1>
+            <div class="row">
+                <div class="col-md-6 about-us">
+                    <p class="about-title">Why we're different...</p>
+                    <ul>
+                        <li>Understand our clients business goals</li>
+                        <li>Believe in doing business with honesty</li>
+                        <li>Delivering on time</li>
+                        <li>Creating winning content stratergies</li>
+                        <li>Protecting online reputations</li>
+                        <li>Collaborative approach to design</li>
+                        <li>Customer first principles</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/network.png" alt="network" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
+
+
+    <!-- TESTIMONIALS -->
+
+    <section id="testimonials">
+        <div class="container">
+            <h1 class="title text-center">WHAT CLIENTS SAY...</h1>
+            <div class="row offset-1">
+                <div class="col-md-5 testimonials">
+                    <p>Subscribe for Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit numquam vero consequatur ipsam eius praesentium minus dicta obcaecati sequi quo!</p>
+                    <img src="images/user1.jpg" alt="">
+                    <p class="user-details"><b>Angelina</b> <br>Co-founder at xyz</p>
+                </div>
+                <div class="col-md-5 testimonials">
+                    <p>Subscribe for Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit numquam vero consequatur ipsam eius praesentium minus dicta obcaecati sequi quo!</p>
+                    <img src="images/user2.jpg" alt="">
+                    <p class="user-details"><b>Joe</b> <br>Co-founder at xyz</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOCIAL MEDIA SECTION -->
+
+    <section id="social-media">
+        <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook-icon.png" alt="fb"></a>
+                <a href="#"><img src="images/instagram-icon.png" alt="fb"></a>
+                <a href="#"><img src="images/snapchat-icon.png" alt="fb"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="fb"></a>
+                <a href="#"><img src="images/whatsapp-icon.png" alt="fb"></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER SECTIONS -->
+
+    <section id="footer">
+        <img src="images/wave2.png" alt="" class="footer-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="images/demo-logo.png" alt="">
+                    <p>Subscribe for Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit numquam vero consequatur ipsam eius praesentium minus dicta obcaecati sequi quo!</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa fa-map-marker"></i>Trade Center, Cardiff</p>
+                    <p><i class="fa fa-phone"></i>+44 123 456 789</p>
+                    <p><i class="fa fa-envelope"></i>xyz@gmail.com</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="YOUR EMAIL: ">
+                    <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">WEBSITE CREATED BY XYZ PRODUCTIONS</p>
+        </div>
+    </section>
+
+    <!-- SMOOTH SCROLL -->
+
+    <script src="smooth-scroll.js">
+        var scroll = new SmoothScroll("a[href*='#']")
+    </script>
 
 </body>
 </html>
